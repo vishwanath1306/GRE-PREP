@@ -1,0 +1,10 @@
+cs.annauniv.edu
+192.168.0.0
+www.kalai.com
+176.132.0.0
+www.vasu.com
+143.165.0.0
+www.prabhu.com
+187.165.143.121
+www.gowri.com
+111.112.113.114
