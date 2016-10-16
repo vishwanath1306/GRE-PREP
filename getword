@@ -1,3 +1,15 @@
-#!/bin/bash
+#!/usr/bin/python
 
-python Extract_Word.py
+import random
+import csv
+
+fil = open('wordlist.csv')
+csv_f = csv.reader(fil)
+p = random.randint(1,1163)
+
+my_csv_word = list(csv_f)
+
+word = my_csv_word[p][0]
+meaning = my_csv_word[p][1]
+
+print "\n%s - %s\n" % (word, meaning)
