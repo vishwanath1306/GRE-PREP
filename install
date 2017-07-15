@@ -1,4 +1,4 @@
 #!/bin/bash
 
-pip install prettytable
+sudo pip install prettytable
 sudo chmod u+x getword
